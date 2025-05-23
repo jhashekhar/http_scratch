@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "sse:dev": "nodemon sse.js",
     "start:prod": "node server.js",
     "start:prod:debug": "node --inspect server.js",
     "start:prod:debug:inspect": "node --inspect-brk server.js"
